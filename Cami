@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salón de Eventos Totito</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Salón de Eventos Totito</h1>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Bienvenido a Totito, tu salón de eventos ideal para celebrar momentos especiales. Ofrecemos un espacio acogedor y elegante para todo tipo de eventos.</p>
+</section>
+
+<section id="services">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Alquiler del salón</li>
+        <li>Servicios de catering</li>
+        <li>Decoración personalizada</li>
+        <li>Organización de eventos</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <p>Puedes contactarnos a través de:</p>
+    <p>Email: contacto@salondetotito.com</p>
+    <p>Teléfono: (123) 456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Salón de Eventos Totito. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
